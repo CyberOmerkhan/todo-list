@@ -17,6 +17,8 @@ button, button:hover{
 }
 body{
     background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    height: 100%;
+    width: 100%;
 }
 .main{
     width: 400px;
@@ -26,4 +28,16 @@ body{
     margin-top: 2%;
     font: normal 100% 'century gothic', arial, sans-serif;
     padding: 0 0 0 5%;
+}
+.bttn{
+    background-color: yellow;
+    padding: 8px;
+    float: right;
+    border-radius:8px;
+}
+.li{
+    padding: 5px 0 15px 3px;
+    background-color: darkgrey;
+    margin-top: 1%;
+    word-wrap: break-word;
 }
