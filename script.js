@@ -8,7 +8,7 @@ btn.addEventListener('click', (e) => {
         i++;
         console.log(input.value);
         createElement(input.value);
-        input.value = '';
+        document.getElementById('input').value = '';
     }
 });
 function createElement(value){
