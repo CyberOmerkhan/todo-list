@@ -1,5 +1,6 @@
 $(document).ready(() => {
     $('#btn').bind('click', () => {
-        console.log($('#input').val());
+        let value = $('#input').val();
+        $('ol.result').append(`<li>${value}</li>);
     })
 })
